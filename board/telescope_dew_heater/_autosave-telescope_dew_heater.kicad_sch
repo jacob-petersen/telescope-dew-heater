@@ -1538,7 +1538,7 @@
   (symbol (lib_id "power:GND") (at 92.71 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0159f117-7b6d-4a09-ad37-3dda870cb5cc)
-    (property "Reference" "#PWR012" (at 92.71 151.13 0)
+    (property "Reference" "#PWR029" (at 92.71 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 149.86 0)
@@ -1554,7 +1554,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "Device:D") (at 87.63 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02f2a493-cd48-493d-8d25-517e5d3df7d2)
-    (property "Reference" "D2" (at 90.17 123.19 90)
+    (property "Reference" "D5" (at 90.17 123.19 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 90.17 124.46 90)
@@ -1586,7 +1586,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1595,7 +1595,7 @@
   (symbol (lib_id "power:GND") (at 66.04 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03be3861-fc3f-4537-ad88-ee54d6e2652e)
-    (property "Reference" "#PWR010" (at 66.04 142.24 0)
+    (property "Reference" "#PWR027" (at 66.04 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 139.7 0)
@@ -1611,7 +1611,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1620,7 +1620,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 217.17 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06692641-8db8-43df-b215-2bc85e7c06fa)
-    (property "Reference" "J3" (at 220.98 24.4232 0)
+    (property "Reference" "J2" (at 220.98 24.4232 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCA1" (at 220.98 26.9632 0)
@@ -1637,7 +1637,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1646,7 +1646,7 @@
   (symbol (lib_id "power:GND") (at 163.83 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09b829aa-1c46-473b-80f3-fffd8ffee103)
-    (property "Reference" "#PWR019" (at 163.83 49.53 0)
+    (property "Reference" "#PWR08" (at 163.83 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 46.99 0)
@@ -1662,7 +1662,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1671,7 +1671,7 @@
   (symbol (lib_id "Device:D") (at 97.79 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0afdd984-1c1c-4f3a-9d2f-ebf107365e37)
-    (property "Reference" "D4" (at 100.33 123.19 90)
+    (property "Reference" "D6" (at 100.33 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 100.33 124.46 90)
@@ -1694,7 +1694,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1703,7 +1703,7 @@
   (symbol (lib_id "Device:D") (at 97.79 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 134baec7-60ed-4736-b438-142a65b78292)
-    (property "Reference" "D3" (at 100.33 55.88 90)
+    (property "Reference" "D2" (at 100.33 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 100.33 57.15 90)
@@ -1726,7 +1726,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "power:+12V") (at 48.26 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1556a2b7-1132-40f8-b056-46c8e315d5ef)
-    (property "Reference" "#PWR04" (at 52.07 130.81 0)
+    (property "Reference" "#PWR025" (at 52.07 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 44.45 130.81 90)
@@ -1751,7 +1751,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1786,7 +1786,7 @@
   (symbol (lib_id "power:+12V") (at 21.59 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d7990c0-c3a5-4bd1-8131-dd8b8c817dbd)
-    (property "Reference" "#PWR02" (at 21.59 40.64 0)
+    (property "Reference" "#PWR010" (at 21.59 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 21.59 49.53 0)
@@ -1802,7 +1802,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1811,7 +1811,7 @@
   (symbol (lib_id "Timer:NE555P") (at 173.99 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2000d9e3-3a4e-4603-b76a-13452533c944)
-    (property "Reference" "U3" (at 176.1841 45.72 0)
+    (property "Reference" "U2" (at 176.1841 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NE555P" (at 176.1841 48.26 0)
@@ -1834,7 +1834,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1843,7 +1843,7 @@
   (symbol (lib_id "power:+12V") (at 104.14 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2043b707-3771-492a-a0a3-f3d69f420473)
-    (property "Reference" "#PWR014" (at 107.95 92.71 0)
+    (property "Reference" "#PWR017" (at 107.95 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 100.33 92.71 90)
@@ -1859,7 +1859,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1868,7 +1868,7 @@
   (symbol (lib_id "power:+12V") (at 156.21 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22c9dbf9-635b-4903-aa50-52c921dcdd17)
-    (property "Reference" "#PWR018" (at 160.02 130.81 0)
+    (property "Reference" "#PWR026" (at 160.02 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 152.4 130.81 90)
@@ -1884,7 +1884,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1893,7 +1893,7 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 106.68 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25602c9d-88cf-4f12-b55f-64c1e4b75911)
-    (property "Reference" "Q2" (at 113.03 104.14 0)
+    (property "Reference" "Q3" (at 113.03 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NMOS_GDS" (at 113.03 106.68 0)
@@ -1911,7 +1911,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "power:GND") (at 92.71 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2642eca4-6776-482f-bbba-89986774ed8f)
-    (property "Reference" "#PWR011" (at 92.71 83.82 0)
+    (property "Reference" "#PWR015" (at 92.71 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 82.55 0)
@@ -1936,7 +1936,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1945,7 +1945,7 @@
   (symbol (lib_id "power:+12V") (at 212.09 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ce33f09-0371-47cf-8633-aca5e0d2c7dc)
-    (property "Reference" "#PWR028" (at 215.9 92.71 0)
+    (property "Reference" "#PWR018" (at 215.9 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 208.28 92.71 90)
@@ -1961,7 +1961,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
   (symbol (lib_id "power:GND") (at 217.17 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f6d416b-0dd5-491f-9af4-5d8a09a833ec)
-    (property "Reference" "#PWR030" (at 217.17 116.84 0)
+    (property "Reference" "#PWR024" (at 217.17 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 115.57 0)
@@ -2012,7 +2012,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2021,7 +2021,7 @@
   (symbol (lib_id "Device:C") (at 55.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 332b2333-ad5f-47aa-bab4-a151c9ba0408)
-    (property "Reference" "C2" (at 59.69 105.41 0)
+    (property "Reference" "C5" (at 59.69 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 59.69 107.95 0)
@@ -2038,7 +2038,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2047,7 +2047,7 @@
   (symbol (lib_id "power:GND") (at 200.66 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35dda636-f199-429f-92ac-5cf9b8de6630)
-    (property "Reference" "#PWR025" (at 200.66 83.82 0)
+    (property "Reference" "#PWR016" (at 200.66 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 82.55 0)
@@ -2063,7 +2063,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2151,7 +2151,7 @@
   (symbol (lib_id "power:+12V") (at 104.14 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47d99736-21e0-46e3-a7f7-04e096b58e4e)
-    (property "Reference" "#PWR013" (at 107.95 25.4 0)
+    (property "Reference" "#PWR02" (at 107.95 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 100.33 25.4 90)
@@ -2167,7 +2167,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2176,7 +2176,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 92.71 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 498d9b7f-7716-4f18-91b1-5c92fea8dada)
-    (property "Reference" "C4" (at 96.52 139.7 0)
+    (property "Reference" "C7" (at 96.52 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68u" (at 96.52 142.24 0)
@@ -2193,7 +2193,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2202,7 +2202,7 @@
   (symbol (lib_id "Device:D") (at 195.58 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 523027d2-961b-4c7d-8bcc-6fb0b7f7c30e)
-    (property "Reference" "D6" (at 198.12 123.19 90)
+    (property "Reference" "D7" (at 198.12 123.19 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 198.12 124.46 90)
@@ -2225,7 +2225,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2234,7 +2234,7 @@
   (symbol (lib_id "power:+12V") (at 66.04 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5272299e-f4c9-4281-9f09-27eb99a5a948)
-    (property "Reference" "#PWR09" (at 66.04 101.6 0)
+    (property "Reference" "#PWR019" (at 66.04 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 66.04 92.71 0)
@@ -2250,7 +2250,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2259,7 +2259,7 @@
   (symbol (lib_id "power:GND") (at 217.17 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58d3418b-25a2-4d34-a37a-94604be19eb9)
-    (property "Reference" "#PWR029" (at 217.17 49.53 0)
+    (property "Reference" "#PWR09" (at 217.17 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 48.26 0)
@@ -2275,7 +2275,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2284,7 +2284,7 @@
   (symbol (lib_id "power:+12V") (at 173.99 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bdf0138-bc0a-4c8b-aec6-6332ca7b8c03)
-    (property "Reference" "#PWR021" (at 173.99 34.29 0)
+    (property "Reference" "#PWR05" (at 173.99 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 173.99 25.4 0)
@@ -2300,7 +2300,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2309,7 +2309,7 @@
   (symbol (lib_id "power:+12V") (at 173.99 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64a452fe-8f64-47ab-9ef4-dd05d36e8765)
-    (property "Reference" "#PWR023" (at 173.99 101.6 0)
+    (property "Reference" "#PWR020" (at 173.99 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 173.99 92.71 0)
@@ -2325,7 +2325,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2334,7 +2334,7 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 214.63 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67a3281f-947a-48c9-9e31-74037092988c)
-    (property "Reference" "Q3" (at 220.98 36.83 0)
+    (property "Reference" "Q2" (at 220.98 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NMOS_GDS" (at 220.98 39.37 0)
@@ -2352,7 +2352,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "Q3") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2418,7 +2418,7 @@
   (symbol (lib_id "Device:C") (at 163.83 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7344d0e1-ce5a-48c3-9f91-1eef041fb0cb)
-    (property "Reference" "C5" (at 167.64 38.1 0)
+    (property "Reference" "C2" (at 167.64 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 167.64 40.64 0)
@@ -2435,7 +2435,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2444,7 +2444,7 @@
   (symbol (lib_id "Timer:NE555P") (at 66.04 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7693db93-4c01-405d-b88c-6281fc0567fd)
-    (property "Reference" "U2" (at 68.2341 113.03 0)
+    (property "Reference" "U3" (at 68.2341 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NE555P" (at 68.2341 115.57 0)
@@ -2467,7 +2467,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2528,7 +2528,7 @@
   (symbol (lib_id "power:GND") (at 55.88 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7dac6852-3d43-4191-ad99-d5a16f584505)
-    (property "Reference" "#PWR06" (at 55.88 116.84 0)
+    (property "Reference" "#PWR021" (at 55.88 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 114.3 0)
@@ -2544,7 +2544,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2553,7 +2553,7 @@
   (symbol (lib_id "power:GND") (at 55.88 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8178273f-1fb0-4737-a4f8-3bddd3b0ce16)
-    (property "Reference" "#PWR05" (at 55.88 49.53 0)
+    (property "Reference" "#PWR06" (at 55.88 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 46.99 0)
@@ -2569,7 +2569,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2604,7 +2604,7 @@
   (symbol (lib_id "Device:R_US") (at 92.71 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85b0b3b0-478c-44eb-a9e4-ef6ef7850f1c)
-    (property "Reference" "R2" (at 95.25 111.76 0)
+    (property "Reference" "R3" (at 95.25 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 95.25 114.3 0)
@@ -2621,7 +2621,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2662,7 +2662,7 @@
   (symbol (lib_id "power:GND") (at 109.22 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 903beceb-0b5a-4679-b4d0-ccf9678a1ae2)
-    (property "Reference" "#PWR016" (at 109.22 116.84 0)
+    (property "Reference" "#PWR022" (at 109.22 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 115.57 0)
@@ -2678,7 +2678,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2713,7 +2713,7 @@
   (symbol (lib_id "Device:R_US") (at 200.66 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b3d6eb2-b8e6-4dca-a7f9-3e9f41f23656)
-    (property "Reference" "R3" (at 203.2 44.45 0)
+    (property "Reference" "R2" (at 203.2 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 203.2 46.99 0)
@@ -2730,7 +2730,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2739,7 +2739,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 200.66 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab7e7b2e-fa3d-46ea-881c-42670f8c0b11)
-    (property "Reference" "C7" (at 204.47 72.39 0)
+    (property "Reference" "C4" (at 204.47 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68u" (at 204.47 74.93 0)
@@ -2756,7 +2756,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2765,7 +2765,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 109.22 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac26cede-8b05-43b2-bba2-1cf1b4f17a02)
-    (property "Reference" "J2" (at 113.03 91.7332 0)
+    (property "Reference" "J3" (at 113.03 91.7332 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCA1" (at 113.03 94.2732 0)
@@ -2782,7 +2782,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2791,7 +2791,7 @@
   (symbol (lib_id "power:+12V") (at 48.26 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afcc2b27-6602-4734-96c5-d4fbb40333f5)
-    (property "Reference" "#PWR03" (at 52.07 63.5 0)
+    (property "Reference" "#PWR011" (at 52.07 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 44.45 63.5 90)
@@ -2807,7 +2807,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2816,7 +2816,7 @@
   (symbol (lib_id "power:GND") (at 163.83 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b261c2df-d522-464a-8676-7a462680e69b)
-    (property "Reference" "#PWR020" (at 163.83 116.84 0)
+    (property "Reference" "#PWR023" (at 163.83 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 114.3 0)
@@ -2832,7 +2832,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2900,7 +2900,7 @@
   (symbol (lib_id "power:GND") (at 66.04 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c14dd58f-b656-4fe8-91b3-b5e407855b5e)
-    (property "Reference" "#PWR08" (at 66.04 74.93 0)
+    (property "Reference" "#PWR013" (at 66.04 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 72.39 0)
@@ -2916,7 +2916,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3011,7 +3011,7 @@
   (symbol (lib_id "power:+12V") (at 66.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf4b4db9-7c53-4307-a5ec-b0a5badd4a50)
-    (property "Reference" "#PWR07" (at 66.04 34.29 0)
+    (property "Reference" "#PWR04" (at 66.04 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 66.04 25.4 0)
@@ -3027,7 +3027,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3036,7 +3036,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 92.71 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d175dfe7-628f-40c4-82f0-23f5bd831808)
-    (property "Reference" "RV2" (at 92.71 127 90)
+    (property "Reference" "RV3" (at 92.71 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K POT" (at 102.87 130.81 90)
@@ -3054,7 +3054,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "RV2") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -3063,7 +3063,7 @@
   (symbol (lib_id "Device:D") (at 195.58 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d22a0850-d71d-4430-b02e-44aa75b915b1)
-    (property "Reference" "D5" (at 198.12 55.88 90)
+    (property "Reference" "D3" (at 198.12 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 198.12 57.15 90)
@@ -3086,7 +3086,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "Device:D") (at 205.74 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d68dc9ef-3337-4192-8afd-926d83191b90)
-    (property "Reference" "D7" (at 208.28 55.88 90)
+    (property "Reference" "D4" (at 208.28 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 208.28 57.15 90)
@@ -3148,7 +3148,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "D7") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "power:+12V") (at 212.09 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9b046ca-475b-4231-abf5-a7e123909606)
-    (property "Reference" "#PWR027" (at 215.9 25.4 0)
+    (property "Reference" "#PWR03" (at 215.9 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 208.28 25.4 90)
@@ -3173,7 +3173,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3182,7 +3182,7 @@
   (symbol (lib_id "power:GND") (at 109.22 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daaba710-77e7-4c85-a2e0-00ece398a3da)
-    (property "Reference" "#PWR015" (at 109.22 49.53 0)
+    (property "Reference" "#PWR07" (at 109.22 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 48.26 0)
@@ -3198,7 +3198,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3233,7 +3233,7 @@
   (symbol (lib_id "power:GND") (at 173.99 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec9a1c8d-c4c7-4e49-8b23-f355e65b001e)
-    (property "Reference" "#PWR022" (at 173.99 74.93 0)
+    (property "Reference" "#PWR014" (at 173.99 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 72.39 0)
@@ -3249,7 +3249,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3258,7 +3258,7 @@
   (symbol (lib_id "power:GND") (at 200.66 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed61f567-07ea-4de0-ba99-99c3634d5651)
-    (property "Reference" "#PWR026" (at 200.66 151.13 0)
+    (property "Reference" "#PWR030" (at 200.66 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 149.86 0)
@@ -3274,7 +3274,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3283,7 +3283,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 200.66 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0c84ab7-4d14-4eb8-a506-507b9b79386b)
-    (property "Reference" "RV3" (at 200.66 59.69 90)
+    (property "Reference" "RV2" (at 200.66 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K POT" (at 210.82 63.5 90)
@@ -3301,7 +3301,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "RV3") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "power:GND") (at 173.99 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8dbc828-181b-43c0-b544-be66aa004b08)
-    (property "Reference" "#PWR024" (at 173.99 142.24 0)
+    (property "Reference" "#PWR028" (at 173.99 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 139.7 0)
@@ -3326,7 +3326,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3335,7 +3335,7 @@
   (symbol (lib_id "power:+12V") (at 156.21 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd847b37-0e8c-49f1-aae0-696035d3594e)
-    (property "Reference" "#PWR017" (at 160.02 63.5 0)
+    (property "Reference" "#PWR012" (at 160.02 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 152.4 63.5 90)
@@ -3351,7 +3351,7 @@
     (instances
       (project "telescope_dew_heater"
         (path "/7623b60a-e6f6-4f34-9d33-2b09fb9bf88f"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
